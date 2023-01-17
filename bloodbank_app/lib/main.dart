@@ -1,5 +1,4 @@
-// ignore_for_file: prefer_const_constructors
-
+import 'package:bloodbank_app/screens/hello.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,10 +12,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      title: 'Bllood Bank App',
+      home: const MyHomePage(),
     );
   }
 }
-
-
-
